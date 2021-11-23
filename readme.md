@@ -12,4 +12,4 @@
      - CLOSE and DISPOSE of receivers may lead to errors:
        - Fails quietly on quorum queues (errors logged)
        - Throws exception on in-memory queues.
-       - wut?
+       - wut? wut?

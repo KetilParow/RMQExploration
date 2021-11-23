@@ -1,0 +1,22 @@
+{
+  "TestParameters": {
+    "repeats": 1,
+    "numQueues": 1,
+    "messageSizeKb": 128,
+    "numListeners": 5,
+    "numSenders": 20,
+    "NumMessagesToSend": 100
+  },
+
+  "ServerSetup": {
+    "HostName": "localhost",
+    "UserName": "guest",
+    "Password": "guest"
+  },
+
+  "MessageParameters": {
+    "ListenToQueue": "broadcast.mytopic",
+    "SendToExchange": "amq.topic",
+    "RoutingKey": "mytopic"
+  }
+}

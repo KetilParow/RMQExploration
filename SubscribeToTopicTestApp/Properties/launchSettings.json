@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SubscribeToTopicTestApp": {
+      "commandName": "Project",
+      "commandLineArgs": "messages.to.me"
+    }
+  }
+}
